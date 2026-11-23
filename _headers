@@ -1,0 +1,6 @@
+/leonida-offline/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+/leonida-offline/sw.js
+  Cache-Control: no-cache

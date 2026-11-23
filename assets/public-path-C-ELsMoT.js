@@ -1,0 +1,1 @@
+function e(e,t=`/leonida-offline/`){return`${`/${t.replace(/^\/+|\/+$/g,``)}`.replace(/\/$/,``)}/${e.replace(/^\/+/,``)}`}function t(t){return e(encodeURIComponent(t))}function n(t,n){let r=new URLSearchParams({view:`3d`});return t&&r.set(`place`,t),`${e(``,n)}?${r}`}export{t as n,e as r,n as t};
