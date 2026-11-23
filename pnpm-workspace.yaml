@@ -1,0 +1,16 @@
+packages:
+  - '.'
+
+overrides:
+  minimatch@10.2.6: 11.0.9
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+
+minimumReleaseAgeExclude:
+  - minimatch@11.0.9
